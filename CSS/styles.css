@@ -2,11 +2,30 @@
     --primary-text-color:  #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --footer-color-60: rgb(rgba(255, 255, 255, 0.6));
+    --footer-color: #000000;
+    --secondary-title-color: #ffffff;
+   
 }
 
-.body {color: var(--primary-text-color)}
-.title {color: var(--title-text-color)}
-.text {color: var(--primary-text-color)}
+.body {
+    color: var(--primary-text-color)}
+.title {
+    color: var(--title-text-color)}
+.text {
+    color: var(--primary-text-color)}
+.text-footer {
+    color: var(--footer-color)}
+.text-footer60 {
+    color: var(--footer-color-60)
+}
+.logo-web {
+    color: var(--accent-color)}
+.logo-studio {
+    color: var(--footer-color)}
+.button {
+    background-color: var(--accent-color);
+    color: var(--secondary-title-color);}
 
 .site-nav {color: var(--title-text-color);}
 .site-nav:hover,
@@ -22,4 +41,4 @@
 
 .section-title {color: var(--title-text-color);}
 
-.text-footer {color: rgb(rgba(0, 0, 0, 0.6))}
+
