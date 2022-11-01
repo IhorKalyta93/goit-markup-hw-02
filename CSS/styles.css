@@ -11,6 +11,7 @@
 .body {
     color: var(--primary-text-color);
     background-color: var(--button-background-color);
+    font-family: roboto, sans-serif;
     }
 .title {
     color: var(--title-text-color)}
@@ -50,5 +51,4 @@
     }
 
 .section-title {color: var(--title-text-color);}
-
 
