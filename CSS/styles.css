@@ -40,7 +40,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;}
 .text {
     color: var(--primary-text-color)}
-.portfolio-h2 {}
+.title-portfolio {}
 .h3 {color: var(--primary-text-color);
     font-style: normal;
     font-weight: 400;
