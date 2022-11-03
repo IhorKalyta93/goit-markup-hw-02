@@ -10,17 +10,26 @@
     --background-color-dark: color #2F303A;
 }
 
+
 /*«С12» Висота рядка (властивість line-height) всіх текстових елементів точно відповідає значенням з макета і задана як множник,
 а не в px*/
 .body {
     color: var(--primary-text-color);
     background-color: var(--background-color);
     font-family: Roboto, sans-serif;
+
+    
+    font-size: 14px;
+    line-height: 1.7;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
     }
    
 .title {
     color: var(--title-text-color)}
- /*hero title белый текст FFFFFF*/
+
  .portfolio-title { color: var(--title-text-color);
     font-style: normal;
     font-weight: 700;
@@ -33,13 +42,12 @@
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    scolor: var(--title-text-color);}
+    color: var(--title-text-color);}
 
 .hero {height: 600px;
     background-color: #2F303A;}
 
-.hero-title {color: var(--footer-color);
-font-family: 'Roboto';
+.hero-title {color: var(--secondary-title-color);
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -74,12 +82,31 @@ text-transform: uppercase;}
 .logo-studio {
     color: var(--footer-color)}
 
+.button-index,
+.button-index:hover,
+.button-index:focus,
+.button-index:active {
+    background-color: var(--accent-color);
+    color: var(--secondary-title-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
 .button-portfolio {
     background-color: var(--button-background-color);
     color: var(--title-text-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    cursor: pointer}
+    cursor: pointer;
+}
+    
 .button-portfolio:hover,
 .button-portfolio:focus,
 .button-portfolio:active {
@@ -87,7 +114,7 @@ text-transform: uppercase;}
     color: var(--secondary-title-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    cursor: pointer}
+    cursor: pointer;}
 
 .site-nav {color: var(--title-text-color);
     font-style: normal;
@@ -97,12 +124,14 @@ text-transform: uppercase;}
     letter-spacing: 0.02em;}
 .site-nav:hover,
 .site-nav:focus,
-.site-nav:active {color: var(--accent-color);
+.site-nav:active {
+    color: var(--accent-color);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    }
 
 .auth-nav {color: var(--primary-text-color)}
 .auth-nav:hover,
