@@ -27,7 +27,16 @@
     font-size: 18px;
     line-height: 1.8;
     letter-spacing: 0.06em;}
+.title-index {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    scolor: var(--title-text-color);}
 
+.hero {height: 600px;
+    background-color: #2F303A;}
 
 .hero-title {color: var(--footer-color);
 font-family: 'Roboto';
