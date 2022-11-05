@@ -9,19 +9,15 @@
     --background-color: color #F5F5F5;
     --background-color-dark: color #2F303A;
 }
-
-
-/*«С12» Висота рядка (властивість line-height) всіх текстових елементів точно відповідає значенням з макета і задана як множник,
-а не в px*/
 .body {
     color: var(--primary-text-color);
     background-color: var(--background-color);
     font-family: Roboto, sans-serif;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     }
-   
 .logo-web {
     color: var(--accent-color);
     font-family: 'Raleway';
@@ -33,7 +29,6 @@
     color: var(--footer-color);
     /*logo <span>*/
 }
-
 .site-nav {
     color: var(--title-text-color);
     font-weight: 500;
@@ -56,44 +51,69 @@
 .auth-nav:active {
     color: var(--accent-color);
 }
-
-.title {
-    color: var(--title-text-color);
+.button-index,
+.button-index:hover,
+.button-index:focus,
+.button-index:active {
+    background-color: var(--accent-color);
+    color: var(--secondary-title-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.85;
 }
-.portfolio-title { color: var(--title-text-color);
+.hero {
+    height: 600px;
+    background-color: #2F303A;
+}
+.hero-title {
+    color: var(--secondary-title-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.index-title0 {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+.index-title1 {
+    color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.index-text1 {
+    line-height: 1.71;
+}
+.index-title2 {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.index-text2 {
+    font-size:16px;
+    line-height: 1.19;
+}
+.portfolio-title {
+    color: var(--title-text-color);
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.8;
-    letter-spacing: 0.06em;}
-.title-index {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--title-text-color);}
-
-.hero {height: 600px;
-    background-color: #2F303A;}
-
-.hero-title {color: var(--secondary-title-color);
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.4;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;}
-.text {
-    color: var(--primary-text-color)}
-.title-portfolio {}
-.h3 {color: var(--primary-text-color);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;}
+    letter-spacing: 0.06em;
+}
 .text-footer {
     color: var(--footer-color);
     font-style: normal;
@@ -108,24 +128,6 @@ text-transform: uppercase;}
     line-height: 1.7;
 }
 
-
-.button-index,
-.button-index:hover,
-.button-index:focus,
-.button-index:active {
-    background-color: var(--accent-color);
-    color: var(--secondary-title-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-}
 .button-portfolio {
     background-color: var(--button-background-color);
     color: var(--title-text-color);
@@ -142,30 +144,4 @@ text-transform: uppercase;}
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     cursor: pointer;}
-
-.site-nav {color: var(--title-text-color);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;}
-.site-nav:hover,
-.site-nav:focus,
-.site-nav:active {
-    color: var(--accent-color);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    }
-
-.auth-nav {color: var(--primary-text-color)}
-.auth-nav:hover,
-.auth-nav:focus,
-.auth-nav:active {
-        color: var(--accent-color);
-    }
-
-.section-title {color: var(--title-text-color);}
 
