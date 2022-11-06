@@ -131,12 +131,22 @@
     font-size: 14px;
     line-height: 1.7;
 }
+.text-footer:focus,
+.text-footer:hover,
+.text-footer:active {
+    color: var(--accent-color);
+}
 .text-footer60 {
     text-decoration: none;
     color: var(--footer-color-60);
     font-size: 14px;
     font-style: normal;
     line-height: 1.7;
+}
+.text-footer60:focus,
+.text-footer60:hover,
+.text-footer60:active {
+    color: var(--accent-color);
 }
 .button-portfolio {
     background-color: var(--button-background-color);
